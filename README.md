@@ -60,7 +60,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ### :memo: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/Junior-Rocha/gostack-desafio01/blob/master/LICENSE) para mais detalhes.
 
 
 Feito com ♥ by Junior Rocha  :wave: [Get in touch!](https://github.com/Junior-Rocha)
