@@ -3,13 +3,13 @@ const app = express()
 app.use(express.json())
 const PORT = 3000
 
-const projects = []
+const projects = [] 
 // Middleware que verifica se o projeto ja existe
 function checkProjectExists(req, res, next) {
   const { id } = req.params;
   const project = projects.find(p => p.id == id);
   if (!project) {
-    return res.status(400).json({ error: 'Projeto não encontrado' });
+    return res.status(400).json({ error: 'Projeto não  encontrado' });
   }
   return next();
 }
@@ -18,7 +18,7 @@ function logRequests(req, res, next) {
   console.count("Quantidade de requisições");
   return next();
 }
-server.use(logRequests);
+app.use(logRequests);
 
 //criacão de um novo projeto
 app.post('/projects', (req, res)=> {
